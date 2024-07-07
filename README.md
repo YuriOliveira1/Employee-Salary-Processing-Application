@@ -1,18 +1,23 @@
-## Getting Started
+# Employee Salary Analysis App
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
+Este aplicativo Java lê informações de funcionários de um arquivo CSV, calcula a soma dos salários daqueles cujos nomes começam com 'M' e exibe os emails das pessoas cujo salário é superior a um valor especificado pelo usuário.
 
-## Folder Structure
+## Funcionalidades
+1. Leitura de dados de um arquivo CSV.
+2. Cálculo da soma dos salários das pessoas cujos nomes começam com 'M'.
+3. Ordenação dos emails em ordem alfabética.
 
-The workspace contains two folders by default, where:
+## Instruções de Uso
+1. **Execução do programa:**
+   - Execute o programa Java fornecendo o caminho completo do arquivo CSV e um valor de salário médio.
+   
+2. **Entrada de Dados:**
+   - Ao executar, o programa solicitará que você insira o caminho completo do arquivo CSV e o valor do salário médio.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+3. **Saída:**
+   - Será exibida a lista de emails das pessoas cujo salário é superior ao valor médio inserido.
+   - Além disso, será mostrada a soma dos salários das pessoas cujos nomes começam com 'M'.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Autor
+Yuri
